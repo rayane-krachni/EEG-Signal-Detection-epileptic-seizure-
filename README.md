@@ -14,7 +14,7 @@ points for 1 second, and each data point refers to the value of the EEG recordin
 point in time.
 
 ## Experiments and proposed approach
-##VGG 16
+## VGG 16
 
 -  2 x convolution layer of 64 channel of 3x3 kernal and same padding + relu activation. 
 -  1 x maxpool layer of 2x2 pool size and stride 2x2.
@@ -31,7 +31,7 @@ point in time.
 
 
 
-##VGG 19
+## VGG 19
 
 In order to classify epileptic seizure and achieved our aim, we started by import the data and prepare it, then fed it into our model. The  following steps explain how we organized the layer which make up this model.
 
